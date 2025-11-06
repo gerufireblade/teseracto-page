@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500;700;900&display=swap');
+
+body {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body, html {
+  overflow-x: hidden;
+  margin: 0;
+  width: 100%;
+}
+
+#root {
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+}
+
+section {
+  height: 100px;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.first-section {
+  height: 700px;
+  background-image: url('assets/hero_1_background.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0px 180px 100px 180px;
+}
+
+.main-content-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left-part {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.left-part > p {
+  margin: 0px;
+  font-size: 40px;
+}
+
+.left-part > button {
+  margin-top: 26px;
+  border-radius: 50px;
+  background-color: #F99A2B73;
+  padding: 0;
+}
+
+.right-part {
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.right-part > img {
+  width: 450px;
+}
+
+.section-block {
+  height: 200px;
+}
+
+.panel-1 {
+  background: #423E3B;
+}
+
+.panel-2 {
+  background: #88498F;
+}
+
+h1 {
+  font-size: 4rem;
+}
